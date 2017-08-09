@@ -1,2 +1,2 @@
 # Glideservers-website
-Live version of https://www.glideservers.com
+Live version of https://www.glideservers.com , updated every minute
