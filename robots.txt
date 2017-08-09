@@ -1,3 +1,3 @@
-# robots.txt for https://www.glideservers.com/  12.11.2016
+# robots.txt for https://www.glideservers.com/  9/8/17
 User-agent: *
-Disallow: /clients/ # robots do not like many languages in PHP
+Disallow: /clients/ # Stop aimless searching of dynamic pages
