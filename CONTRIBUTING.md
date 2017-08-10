@@ -38,7 +38,7 @@ documentation, repository gardening, and other stuff that makes developers happy
 
 * <sub>[![chore][chore]][chore_link]
 
-[chore]: http://labl.es/svg?text=chore&bgcolor=fef2c0
+[chore]: http://labl.es/svg?text=enhancement&bgcolor=fef2c0
 
 [chore_link]: https://github.com/GlideServers/Glideservers-website/labels/chore
 
