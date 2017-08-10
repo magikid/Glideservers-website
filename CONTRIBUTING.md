@@ -42,11 +42,11 @@ documentation, repository gardening, and other stuff that makes developers happy
 
 [chore_link]: https://github.com/GlideServers/Glideservers-website/labels/chore
 
-Light blue labels are for **features**. 
+Light blue labels are for **features**. These are things that make the website better.
 
 * <sub>[![enhancement][enhancement]][enhancement_link]</sub>
 
-[enhancement]: http://labl.es/svg?text=core&bgcolor=84b6eb
+[enhancement]: http://labl.es/svg?text=core&bgcolor=006b75
 
 [enhancement_link]: https://github.com/GlideServers/Glideservers-website/labels/enhancement
 
