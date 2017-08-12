@@ -1,2 +1,1 @@
-# Old Glideservers Website
-Our old theme that is no longer in use
+# Can be viewed [here](https://oldweb.glideservers.com/)
