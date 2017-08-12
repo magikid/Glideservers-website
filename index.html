@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">		<meta name="title" content="GlideServers">	<meta name="description" content="Fast, reliable VPS hosting">	<meta name="keywords" content="VPS,Open-VZ,TS3,Website,Hosting">	<meta name="author" content="James,Owen">
+    <title>GlideServers</title>
+    <link rel="shortcut icon" href="images/icons/favicon.png" />
+    <link href='https://fonts.googleapis.com/css?family=Hind:400,300,600,500,700&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+	<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+	<script> 
+	$(function(){
+	  $("#footer").load("zfoot/footer.html"); 
+	  $("#features").load("zfoot/features.html"); 
+	});
+	</script> 
+
+    <!-- Bootstrap & Styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.css" rel="stylesheet">
+    <link href="css/block_grid_bootstrap.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="css/owl.theme.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet" />
+    <link href="css/jquery.circliful.css" rel="stylesheet" />
+    <link href="css/slicknav.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+     <!-- Top Bar-->
+    <div class="top">
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="logo">
+                    <a href="https://www.glideservers.com"><img src="images/logo.png" alt="" />
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-9">
+
+                <nav id="desktop-menu">
+                    <ul class="sf-menu" id="navigation">
+                        <li class="current"><a href="https://www.glideservers.com">Home</a>
+                        </li>
+                        <li><a href="">Hosting</a>
+                            <ul>
+								<li><a href="vps">Open-VZ VPS</a>
+                                </li>
+								<li><a href="vpsx">Open-VZ VPS | extra</a>
+								</li>
+								<li><a href="vpsc">Open-VZ VPS | capacity</a>
+                                </li>
+                                <!--<li><a href="voice">TeamSpeak 3</a>
+                                <!--<ul>
+                                <li><a href="vps-slider-3-plans.html">3 Plans Slider</a></li>
+                                <li><a href="vps-slider-5-plans.html">5 Plans Slider</a></li>
+                                <li><a href="vps-slider-6-plans.html">6 Plans Slider</a></li>
+                                </ul>-->
+                            </ul>							
+                        <li><a href="">More</a>
+                            <ul>
+                                <li><a href="about">About</a>
+                                </li>
+                                <li><a href="faq">FAQ</a>
+                                </li>
+                                <li><a href="features">Features</a>
+                            </ul>
+                        </li>
+                        <li><a href="https://www.glideservers.com/clients/">Control Panel</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- End of Top Bar-->
+	
+	    <!-- Video -->
+    <div id="index-video" class="hidden-xs">
+        <div class="index-video-container">
+                            <div class="videocaption">
+                 <h2>Glide Servers</h2>                  <h4>fast and reliable OpenVZ hosting</h4>                  <p><a class="btn btn-slide" href="hosting">Find out more</a></p>             </div>
+                    <video autoplay loop muted>
+                            <source src="https://d208oxoiwhayec.cloudfront.net/videos/Datanetwork.mp4" type="video/mp4">
+                            <source src="https://d208oxoiwhayec.cloudfront.net/videos/Datanetwork.webm" type="video/webm">
+                            <source src="https://d208oxoiwhayec.cloudfront.net/videos/Datanetwork.ogv" type="video/ogg">
+                                                        </video>
+        </div>
+    </div>
+    <!-- End of Video -->
+	
+	
+
+    <!-- Slider 
+
+    <div class="slidercontainer">
+        <div id="mainslider" class="owl-carousel">
+
+           <div class="item">
+                <div class="slidecaption">
+                    <h2>Teamspeak 3</h2>
+                    <h4>low latency and the highest quality</h4>
+                    <p><a class="btn btn-slide" href="voice">See the Features</a>
+                    </p>
+                </div>
+                <img src="images/slider/4.jpg" alt="" />
+            </div>
+
+            <div class="item">
+                <div class="slidecaption">
+                    <h2>VPS</h2>
+                    <h4>fast and reliable OpenVZ hosting</h4>
+                    <p><a class="btn btn-slide" href="vps">Learn More</a>
+                    </p>
+                </div>
+                <img src="images/slider/3.jpg" alt="" />
+            </div>
+
+            <div class="item">
+                <div class="slidecaption">
+                    <h2>Coming soon...</h2>  
+                    </p>
+                </div>
+                <img src="images/slider/2.jpg" alt="" />
+            </div>
+
+            <div class="item">
+                <div class="slidecaption">
+                    <h2>Coming soon...</h2>
+                    </p>
+                </div>
+                <img src="images/slider/1.jpg" alt="" />
+            </div>
+        </div> 
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div id="mainslider-nav" class="owl-carousel">
+                    <div class="item"><i class="fa fa-comment"></i>VOICE</div>
+                    <div class="item"><i class="fa fa-cloud"></i>VPS</div>
+					<div class="item"><i class="fa fa-close"></i>Coming soon</div>
+					<div class="item"><i class="fa fa-close"></i>Coming soon</div>
+					
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of Slider -->
+
+    <!--  Features -->
+    <section class="features">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2>What makes us <font color="#00E6B8">glide?</h2></font>
+            </div>
+        </div>
+
+                <div class="row spacing-70">
+            <div class="col-sm-4">
+                <div class="feature wow zoomIn" data-wow-delay="0.2s">
+                    <img src="images/rocket.png" alt="" />
+                    <h4>Rocket Speed Internet</h4>
+                    <p>Our enterprise grade connectivity makes sure your VPS rapid and dependable.</p>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="feature wow zoomIn" data-wow-delay="0.4s">
+                    <img src="images/ssd.png" alt="" />
+                    <h4>RAID Enterprise HDDs</h4>
+                    <p>Enterprise HDDs give you a sense of speed and capacity.</p>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="feature wow zoomIn" data-wow-delay="0.6s">
+                    <img src="images/secure.png" alt="" />
+                    <h4>Anti-DDoS / Protection</h4>
+                    <p>We have the best DDoS mitigation to secure your VPS from a range of different attacks.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- End of Features -->
+
+
+    <!--  Call to Action -->
+    <section class="calltoaction">
+
+        <div class="row wow zoomIn" data-wow-delay="0.2s">
+            <div class="col-sm-10 com-md-8 center-block">
+
+                <div class="row no-gutter cta-content">
+                    <div class="col-sm-3">
+                        <div class="offer wow fadeInUp" data-wow-delay="0.5s">
+                            <span>GET</span>
+                            <h2>15%</h2>
+                            <span>OFF</span>
+                        </div>
+                    </div>
+                    <div class="col-sm-9">
+
+                        <div class="offerdescription wow fadeInUp" data-wow-delay="0.7s">
+                            <h2>GET STARTED TODAY</h2>
+                            <p>by using code "GLIDE"*</p> 
+							<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+							<!-- GlideServers -->
+							<ins class="adsbygoogle"
+								 style="display:inline-block;width:728px;height:90px"
+								 data-ad-client="ca-pub-5831172963723400"
+								 data-ad-slot="8037953973"></ins>
+							<script>
+							(adsbygoogle = window.adsbygoogle || []).push({});
+							</script>
+                        </div>
+                    </div>
+                </div>
+              <p></p>
+             <!--   <div class="wow fadeInUp" data-wow-delay="0.9s">
+                    <form class="form-inline domainsearch" method="post" action="#">
+                        <div class="row no-gutter">
+                            <div class="col-sm-8">
+                                <input type="text" class="form-control" name="sld" onfocus="if (this.value == 'Enter your domain') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Enter your domain';}" value="Enter your domain" />
+                            </div>
+                            <div class="col-sm-2">
+                                <select name="tld" class="form-control">
+                                    <option>.com</option>
+                                    <option>.net</option>
+                                    <option>.org</option>
+                                    <option>.eu</option>
+                                </select>
+                            </div>
+                            <div class="col-sm-2">
+                                <button type="submit" class="btn btn-primary" style="width:100%">SEARCH</button>
+                            </div>
+
+                        </div>
+                    </form> -->
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- End of Call to Action -->
+
+    <!--  Pricing Tables 
+    <section class="pricingtables">
+       <div class="row">
+            <div class="col-sm-12">
+                <h2></h2>
+                <p>Our most popular services</p>
+            </div>
+        </div>
+
+        <div class="row spacing-70 no-gutter">
+
+            <div class="col-sm-3 wow zoomIn" data-wow-delay="0.2s">
+                <div class="panel panel-info">
+                    <div class="panel-heading">
+                        <h3 class="text-center">Voice Hosting</h3>
+                    </div>
+                    <div class="panel-body text-center">
+                        <span>STARTING FROM</span>
+                        <h4>$1.05</h4>
+                        <span class="per">PER MONTH</span>
+                    </div>
+
+                    <div class="panel-footer">
+                        <a class="btn btn-lg btn-pricetable" href="voice">COMPARE PLANS</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-3 wow zoomIn" data-wow-delay="0.4s">
+                <div class="panel panel-info">
+                    <div class="panel-heading">
+                        <h3 class="text-center">OVZ-VPS Hosting</h3>
+                    </div>
+                    <div class="panel-body text-center">
+                        <span>STARTING FROM</span>
+                        <h4>$3.00</h4>
+                        <span class="per">PER MONTH</span>
+                    </div>
+                    <div class="panel-footer">
+                        <a class="btn btn-lg btn-pricetable" href="vps">COMPARE PLANS</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-3 wow zoomIn" data-wow-delay="0.6s">
+                <div class="panel panel-info">
+                    <div class="panel-heading">
+                        <h3 class="text-center">Coming Soon</h3>
+                    </div>
+                    <div class="panel-body text-center">
+                        <span>STARTING FROM</span>
+                        <h4>$--</h4>
+                        <span class="per">PER MONTH</span>
+                    </div>
+                    <div class="panel-footer">
+                       
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-3 wow zoomIn" data-wow-delay="0.8s">
+                <div class="panel panel-info">
+                    <div class="panel-heading">
+                        <h3 class="text-center">Coming Soon</h3>
+                    </div>
+                    <div class="panel-body text-center">
+                        <span>STARTING FROM</span>
+                        <h4>$--</h4>
+                        <span class="per">PER MONTH</span>
+                    </div>
+                    <div class="panel-footer">
+                        
+                    </div>
+                </div>
+            </div> 
+
+        </div>
+    </section>
+    <!-- End of Pricing Tables -->
+
+
+
+    <!--  Statistics 
+    <section class="statistics">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2>A few <i class="fa fa-heart"></i> lovely stats</h2>
+                <p>Synthesize inclusive capitalism, global health clean water grantees nonprofit equal opportunity.</p>
+            </div>
+        </div>
+
+        <div class="row spacing-70">
+
+            <div class="col-sm-3">
+                <div class="wow fadeInUp" data-wow-delay="0.1s">
+                    <p id="myStat1" data-dimension="175" data-animationstep="0.5" data-text="5513" data-width="25" data-fontsize="29" data-percent="100" data-fgcolor="#DE6262" data-bgcolor="#E1E3E4" data-fill="#CECECE"></p>
+                    <span>Deployed Servers</span>
+                </div>
+            </div>
+
+            <div class="col-sm-3">
+                <div class="wow fadeInUp" data-wow-delay="0.2s">
+                    <p id="myStat2" data-dimension="175" data-animationstep="0.5" data-text="20510" data-width="25" data-fontsize="29" data-percent="46" data-fgcolor="#DE6262" data-bgcolor="#E1E3E4" data-fill="#CECECE"></p>
+                    <span>Total Clients</span>
+                </div>
+            </div>
+
+            <div class="col-sm-3">
+                <div class="wow fadeInUp" data-wow-delay="0.3s">
+                    <p id="myStat3" data-dimension="175" data-animationstep="0.5" data-text="7028" data-width="25" data-fontsize="29" data-percent="38" data-fgcolor="#DE6262" data-bgcolor="#E1E3E4" data-fill="#CECECE"></p>
+                    <span>Days of Uptime</span>
+                </div>
+            </div>
+
+            <div class="col-sm-3">
+                <div class="wow fadeInUp" data-wow-delay="0.4s">
+                    <p id="myStat4" data-dimension="175" data-animationstep="0.5" data-text="4649" data-width="25" data-fontsize="29" data-percent="55" data-fgcolor="#DE6262" data-bgcolor="#E1E3E4" data-fill="#CECECE"></p>
+                    <span>Happy Resellers</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- End of Statistics -->
+
+<!--  Features -->
+    <div id="features"></div>
+    <!-- End of Features -->
+<div id="footer"></div>
+<a href="#top" id="back-to-top"><i class="fa fa-angle-up"></i></a>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/hoverIntent.js"></script>
+    <script src="js/superfish.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/jquery.circliful.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script src="js/custom.js"></script>
+
+    <script>
+    /* Home Page Slider
+   ========================================================================== */
+    $(document).ready(function() {
+
+
+    var sync1 = $("#mainslider");
+    var sync2 = $("#mainslider-nav");
+
+    sync1.owlCarousel({
+    singleItem : true,
+    slideSpeed : 1000,
+    paginationSpeed: 800,
+    navigation: false,
+    pagination:false,
+    autoPlay:7500,
+    afterAction : syncPosition,
+    responsiveRefreshRate : 200,
+    });
+
+    sync2.owlCarousel({
+    items : 4,
+    itemsDesktop : [1199,4],
+    itemsDesktopSmall : [979,4],
+    itemsTablet : [768,4],
+    itemsMobile : [479,2],
+    pagination:false,
+    responsiveRefreshRate : 100,
+    afterInit : function(el){
+    el.find(".owl-item").eq(0).addClass("synced");
+    }
+    });
+
+    function syncPosition(el){
+    var current = this.currentItem;
+    $("#mainslider-nav")
+    .find(".owl-item")
+    .removeClass("synced")
+    .eq(current)
+    .addClass("synced")
+    if($("#mainslider-nav").data("owlCarousel") !== undefined){
+    center(current)
+    }
+    }
+
+    $("#mainslider-nav").on("click", ".owl-item", function(e){
+    e.preventDefault();
+    var number = $(this).data("owlItem");
+    sync1.trigger("owl.goTo",number);
+    });
+
+    function center(number){
+    var sync2visible = sync2.data("owlCarousel").owl.visibleItems;
+    var num = number;
+    var found = false;
+    for(var i in sync2visible){
+    if(num === sync2visible[i]){
+    var found = true;
+    }
+    }
+
+    if(found===false){
+    if(num>sync2visible[sync2visible.length-1]){
+    sync2.trigger("owl.goTo", num - sync2visible.length+2)
+    }else{
+    if(num - 1 === -1){
+    num = 0;
+    }
+    sync2.trigger("owl.goTo", num);
+    }
+    } else if(num === sync2visible[sync2visible.length-1]){
+    sync2.trigger("owl.goTo", sync2visible[1])
+    } else if(num === sync2visible[0]){
+    sync2.trigger("owl.goTo", num-1)
+    }
+    }
+
+    });
+
+/* Τestimonials
+   ========================================================================== */
+ $(document).ready(function() {
+        $("#testimonials-carousel").owlCarousel({
+            items: 1,
+            autoPlay: 5000,
+            itemsDesktop: [1199, 1],
+            itemsDesktopSmall: [979, 1],
+            itemsTablet: [768, 1]
+        });
+    });
+
+    // ______________ STATS
+jQuery(document).ready(function() {
+$('.statistics').waypoint(function() {
+
+ $('#myStat1').circliful();
+ $('#myStat2').circliful();
+ $('#myStat3').circliful();
+ $('#myStat4').circliful();
+
+}, { offset: 800, triggerOnce: true });
+});
+
+    </script>
+</body>
+
+</html>

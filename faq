@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GlideServers - FAQ</title>
+    <link rel="shortcut icon" href="images/icons/favicon.png" />
+    <link href='https://fonts.googleapis.com/css?family=Hind:400,300,600,500,700&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+	
+	<script> 
+	$(function(){
+	  $("#footer").load("zfoot/footer.html"); 
+	});
+	</script> 
+
+    <!-- Bootstrap & Styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.css" rel="stylesheet">
+    <link href="css/block_grid_bootstrap.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="css/owl.theme.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet" />
+    <link href="css/jquery.circliful.css" rel="stylesheet" />
+    <link href="css/slicknav.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+     <!-- Top Bar-->
+    <div class="top">
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="logo">
+                    <a href="https://www.glideservers.com"><img src="images/logo.png" alt="" />
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-9">
+
+                   <nav id="desktop-menu">
+                    <ul class="sf-menu" id="navigation">
+                        <li><a href="https://www.glideservers.com">Home</a>
+                        </li>
+                        <li><a href="">Hosting</a>
+                            <ul>
+								<li><a href="vps">Open-VZ VPS</a>
+                                </li>
+								<li><a href="vpsx">Open-VZ VPS | extra</a>
+								</li>
+								<li><a href="vpsc">Open-VZ VPS | capacity</a>
+                                </li>
+                                <!--<li><a href="voice">TeamSpeak 3</a>
+                                <!--<ul>
+                                <li><a href="vps-slider-3-plans.html">3 Plans Slider</a></li>
+                                <li><a href="vps-slider-5-plans.html">5 Plans Slider</a></li>
+                                <li><a href="vps-slider-6-plans.html">6 Plans Slider</a></li>
+                                </ul>-->
+                            </ul>
+							
+                        <li class="current"><a href="">More</a>
+                            <ul>
+                                <li><a href="about">About</a>
+                                </li>
+                                <li><a href="faq">FAQ</a>
+                                </li>
+                                <li><li class="current"><a href="datacenter">Datacenters</a>
+                            </ul>
+                        </li>
+                        <li><a href="https://www.glideservers.com/clients/">Control Panel</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- End of Top Bar-->
+
+    <!-- FAQ -->
+
+    <section class="faq">
+        <div class="row">
+            <div style="text-align: center;" class="col-sm-12">
+                <h2>Frequently asked questions</h2>
+				<p>The most commonly asked FAQs. View them all </p>
+				<p><div class="buttons-example"></p>
+				<a href="https://www.glideservers.com/clients/knowledgebase.php""><button type="button" class="btn btn-success">Here</button></a>
+				</div>
+				
+            </div>
+        </div>
+
+        <div class="row spacing-40">
+            <div class="col-sm-12">
+                <div class="faq-questions">
+                    <h3 class="badge">FAQs</h3>
+
+                    <div id="accordion" class="panel-group spacing-40">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse1">What is a VPS?</a></h4>
+                            </div>
+
+                            <div id="collapse1" class="panel-collapse collapse in">
+                                <div class="panel-body">
+                                    <p>A VPS is a virtual private server that can run anything a linux server can - including online shops, written content, media content, and/or software applications, primarily web applications - portals, extranets, collaborative solutions, wiki, CRM, etc. </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse2">How much is a VPS?</a></h4>
+                            </div>
+
+                            <div id="collapse2" class="panel-collapse collapse">
+                                <div class="panel-body">
+									<p>This depends on the power you choose and the criticality of the hosted environment. </p>
+                                   </div>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse3">What forms of payment do you accept?</a></h4>
+                            </div>
+
+                            <div id="collapse3" class="panel-collapse collapse">
+                                <div class="panel-body">
+								<p>We currently accept PayPal, you can pay using a credit or debit card using PayPal without having a PayPal account.</p>
+                                  </div>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse4">Is it possible to order/manage a service without a domain name?</a></h4>
+                            </div>
+
+                            <div id="collapse4" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <p>Yes this is possible for all services apart from the website hosting package.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse5">What is web hosting?</a></h4>
+                            </div>
+
+                            <div id="collapse5" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <p>Web hosting is where you pay to have your website hosted online. This means it is available 24/7 and you don't have to worry about it being offline.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse6">What is a control panel?</a></h4>
+                            </div>
+
+                            <div id="collapse6" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <p>The Control Panel (CP) is where you will manage all of your packages, from changing your password to rebooting a VPS. You can also contact support here.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse7">What are the charges if I exceed my bandwidth? </a></h4>
+                            </div>
+
+                            <div id="collapse7" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <p>None, your service will simply be suspended and will begin working when the next invoice comes around. You can upgrade your bandwidth by upgrading the package you are on or contacting our support department usiong a ticket.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse8">How can I monitor my server status? </a></h4>
+                            </div>
+
+                            <div id="collapse8" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <p>You can view the status for all your packages in the control panel.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse9">How can I see more faqs?</a></h4>
+                            </div>
+
+                            <div id="collapse9" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <p>You can view all the FAQs by going here.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    
+
+    <!-- End of FAQ -->
+
+      <!--  Footer -->
+    <div id="footer"></div>
+    <!--  End of Footer -->
+<a href="#top" id="back-to-top"><i class="fa fa-angle-up"></i></a>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/hoverIntent.js"></script>
+    <script src="js/superfish.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/jquery.circliful.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script src="js/custom.js"></script>
+
+    <script>
+    $(document).ready(function() {
+        $("#testimonials-carousel").owlCarousel({
+            items: 1,
+            autoPlay: 5000,
+            itemsDesktop: [1199, 1],
+            itemsDesktopSmall: [979, 1],
+            itemsTablet: [768, 1]
+        });
+    });
+    </script>
+
+</body>
+
+</html>
