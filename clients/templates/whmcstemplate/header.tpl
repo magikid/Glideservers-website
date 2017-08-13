@@ -127,7 +127,7 @@
       <ul class="sf-menu" id="navigation">
         <li><a href="https://www.glideservers.com">Home</a>
         </li>
-        <li><a href=""">Hosting</a>
+        <li><a href="">Hosting</a>
           <ul>
 			<li><a href="https://www.glideservers.com/ssd-vps">NEW! SSD VPS</a>
             </li>
