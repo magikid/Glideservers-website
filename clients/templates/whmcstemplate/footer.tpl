@@ -18,8 +18,8 @@
    <div class="col-sm-3">
     <h4>VPS Hosting</h4>
     <ul>
-      <li><a href="ssd-vps" title="">NEW! SSD VPS</a></li>
-      <li><a href="vps" title="">HDD VPS</a></li>
+      <li><a href="https://www.glideservers.com/ssd-vps" title="">NEW! SSD VPS</a></li>
+      <li><a href="https://www.glideservers.com/vps" title="">HDD VPS</a></li>
     </ul>
   </div>
 
