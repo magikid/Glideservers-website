@@ -8,8 +8,6 @@
     </div>
     <div class="clearfix"></div>
 </section>
-
-
 <!-- FOOTER -->
 <div class="footer">
 <div class="container">
