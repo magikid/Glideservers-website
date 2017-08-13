@@ -2,3 +2,5 @@ clients/
 hostedweb/
 other/
 google4583c55688bb9851.html
+oldwebsite/
+!clients/templates/dataservwhmcs
