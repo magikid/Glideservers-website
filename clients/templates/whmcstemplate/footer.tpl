@@ -14,7 +14,6 @@
 <div class="footer">
 <div class="container">
    <div class="row">
-
    <div class="col-sm-3">
     <h4>VPS Hosting</h4>
     <ul>
@@ -22,23 +21,19 @@
       <li><a href="https://www.glideservers.com/vps" title="">HDD VPS</a></li>
     </ul>
   </div>
-
   <div class="col-sm-3">
     <h4>Support</h4>
-
     <ul>
       <li><a href="https://www.glideservers.com/clients/submitticket.php" title="">Support Tickets</a></li>
       <li><a href="https://www.glideservers.com/clients/knowledgebase/9/Acceptable-Use-Policy.html" title="">Acceptable Usage Policy</a></li>
       <li><a href="https://www.glideservers.com/clients/knowledgebase/10/Terms-Of-Service.html" title="">Terms & Conditions</a></li>
     </ul>
   </div>
-
 </div>
 </div>
 </div>
 </div>
 <!-- END FOOTER -->
-
 <!-- SOCIAL & COPYRIGHT -->
 <div class="social">
   <div class="row">
@@ -52,7 +47,6 @@
 </div>
 </div>
 <!-- END OF SOCIAL & COPYRIGHT -->
-
 <script src="{$BASE_PATH_JS}/bootstrap.min.js"></script>
 <script src="{$BASE_PATH_JS}/jquery-ui.min.js"></script>
 <script type="text/javascript">
@@ -63,8 +57,6 @@
 <script src="{$WEB_ROOT}/templates/{$template}/js/jquery.slicknav.min.js"></script>
 <script src="{$WEB_ROOT}/templates/{$template}/js/custom.js"></script>
 <script src="{$WEB_ROOT}/templates/{$template}/js/whmcs.js"></script>
-
 {$footeroutput}
-
 </body>
 </html>
