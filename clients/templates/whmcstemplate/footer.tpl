@@ -18,8 +18,8 @@
    <div class="col-sm-3">
     <h4>VPS Hosting</h4>
     <ul>
-      <li><a href="ssd-vps" title="">NEW! SSD VPS</a></li>
-      <li><a href="vps" title="">HDD VPS</a></li>
+      <li><a href="https://www.glideservers.com/ssd-vps" title="">SSD VPS</a></li>
+      <li><a href="https://www.glideservers.com/vps" title="">HDD VPS</a></li>
     </ul>
   </div>
 
@@ -47,7 +47,7 @@
 	  <li><a href="https://www.facebook.com/glideservers" title="Facebook"><i class="fa fa-facebook"></i></a></li>
       <li><a href="https://twitter.com/GlideServers" title="Twitter"><i class="fa fa-twitter"></i></a></li>
     </ul>
-    <p class="text-center">Copyright© GlideServers 2016. All rights reserved.</p>
+    <p class="text-center">Copyright© GlideServers 2017. All rights reserved.</p>
   </div>
 </div>
 </div>
