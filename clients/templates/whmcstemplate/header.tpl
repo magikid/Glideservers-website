@@ -113,7 +113,7 @@
 
 <section id="header">
     <div class="container">
-
+    <link rel="shortcut icon" href="images/favicon.ico" />
          <!-- Top Bar-->
     <div class="top">
         <div class="row">
