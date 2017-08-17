@@ -780,7 +780,6 @@
   11 = Affiliates
   ======================== */
 
-  #subheader.affiliates {background: url(images/affiliates_bg.jpg) center center no-repeat; }
   #subheader.affiliates:after { background: rgba(34,43,50,.9); bottom: 0px; content: ""; left: 0; position: absolute; right: 0; top: 0; z-index: 1; }
   #subheader.affiliates .mtr-btn {margin-top:35px;}
 
