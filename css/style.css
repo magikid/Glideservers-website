@@ -144,7 +144,7 @@
   ============ */
 
   /* Header Background ---------------------- */
-  #mainimage { position: relative;    overflow: hidden; background: #282f39 url(images/pricingbox-bg-dark.jpg) no-repeat bottom center;}
+  #mainimage { position: relative;    overflow: hidden; background: #282f39 url(../images/pricingbox-bg-dark.jpg) no-repeat bottom center;}
   #mainimage .introcaption { opacity:0; }
   #mainimage h1 { font-family: 'Roboto', Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif; text-align: center; color:#fff; padding-top:70px; z-index:2; position: relative; font-weight:100; font-size: 3.28em; text-shadow: -1px 1px 0 #2d2d2f;}
   #mainimage h1 span#js-rotating {padding:25px 25px 0;  color:#01ABEF; display:table; margin:0 auto; text-align:center; }
@@ -161,7 +161,7 @@
   .pricingbox.headerimg .progress.blue .meter { background:#2d3c8f;}
 
   /* Header Background Image Two ---------------------- */
-  #mainimage-two {background: #282f39 url(images/head-bg-2.png);}
+  #mainimage-two {background: #282f39 url(../images/head-bg-2.png);}
   #mainimage-two canvas {position: absolute; top: 0; left: 0;  right: 0; bottom: 0; }
   #mainimage-two [class*='col-'] { text-align:center;}
   .top-column-content {padding:90px 0 0;}
@@ -228,14 +228,14 @@
   .features p {padding:0 40px;}
 
   /* Call To Action ------------------------ */
-  .calltoaction {padding:55px 0 360px; background:#fff url(images/calltoaction.jpg) no-repeat bottom center; background-size:cover; overflow:hidden;}
+  .calltoaction {padding:55px 0 360px; background:#fff url(../images/calltoaction.jpg) no-repeat bottom center; background-size:cover; overflow:hidden;}
   .calltoaction h2 {font-weight:300; font-size:31px; display:table; border-bottom:1px solid #e4e4e4; padding:15px; margin:0 auto; margin-bottom:25px; letter-spacing: -.05em;}
   .calltoaction h2 span {color:#FF4081; display: block; margin-top:15px; margin-bottom:15px; }
   .calltoaction .mtr-btn {margin-top:15px;}
 
   /* Pricing Boxes ------------------------ */
-  .pricingbox {padding:55px 0; margin:0; background: #282f39 url(images/pricingbox-bg-dark.jpg) no-repeat bottom center; overflow:hidden; }
-  .pricingbox.no-image-bg {background: #282f39 url(images/popular_plans_bg.jpg);}
+  .pricingbox {padding:55px 0; margin:0; background: #282f39 url(../images/pricingbox-bg-dark.jpg) no-repeat bottom center; overflow:hidden; }
+  .pricingbox.no-image-bg {background: #282f39 url(../images/popular_plans_bg.jpg);}
   .pricingbox h3 {color:#fff; letter-spacing: -.03em; margin-bottom:30px; text-align: center; font-size:29px;}
   .pricingbox h3.poptitle {color:#fff; letter-spacing: -.03em; margin-bottom:20px; text-align: center; font-size:29px; font-weight:900; position: relative; padding-bottom:25px;}
   .pricingbox h3.poptitle::after {background-color: #FF377D; bottom: 0; content: ""; height: 2px; left: 50%; margin-left: -30px; position: absolute; width: 60px;}
@@ -336,7 +336,7 @@
 
 
   /* Testimonials ------------------------ */
-  .testimonials {background: url(images/s8.png); padding:55px 0; overflow:hidden; }
+  .testimonials {background: url(../images/s8.png); padding:55px 0; overflow:hidden; }
   .testimonials h3 {color:#fff; letter-spacing: -.03em; margin-bottom:50px; text-align: center; font-size:29px; font-weight:900;}
   .testimonials .hr-awesome { position: relative; margin:0 auto; max-width:50%; margin-bottom:50px; border: solid rgba(255,255,255,.075); border-width: 1px 0 0;}
   .testimonials .hr-awesome::after { color: #fff; font-family:'FontAwesome'; content: "\f08a";  font-size: 19px; position: absolute; right: calc(50% - 15px);  top: calc(50% - 22px);  width: 40px; height:40px; border-radius:50%; background:#FF377D; padding:7px 0 0 11px;  box-shadow: 0 1px 1.5px 0 rgba(0, 0, 0, 0.12), 0 1px 1px 0 rgba(0, 0, 0, 0.24);}
@@ -389,7 +389,7 @@
 /* ========================
   4 = Shared Hosting Page
   ======================== */
-  #subheader.shared {background:url(images/shared-bg.png); padding:100px 25px;}
+  #subheader.shared {background:url(../images/shared-bg.png); padding:100px 25px;}
   #subheader.shared h1 {color:#424242; text-shadow:none; }
   #subheader.shared h2 {color:#424242;}
 
@@ -456,7 +456,7 @@
 
   /* Order Slider - VPS Page */
   .pricingbox.vps {padding-bottom:0;}
-  .pricingbox.vps-comparison {padding:55px 0 90px; background: url(images/popular_plans_bg.jpg); background-size:cover;}
+  .pricingbox.vps-comparison {padding:55px 0 90px; background: url(../images/popular_plans_bg.jpg); background-size:cover;}
   .pricingbox.vps h1 {font-size:29px; display:table; border-bottom:0; padding:0 15px; margin:0 auto;color:#fff; font-weight:700; margin-bottom:0;}
   .pricingbox.vps .centralized {   position: relative;   top: 0;   opacity: 1;   float: left;   padding:15px 0 0;   width: 100%;   border-radius: 0;   transform: scale(1);   -webkit-transform: scale(1);   -ms-transform: scale(1);   z-index: 5; text-align:center; box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12); background: #ff4081; margin-top:30px;}
   .pricingbox.vps .centralized:before {   content: "";   width: 100%;   height: 30px;   border-radius: 0;   position: absolute;   top: -10px;   left: 0;   transform: scale(.95);   -webkit-transform: scale(.95);   -ms-transform: scale(.95);   z-index: -1; background: rgba(255,64,129,.5);}
@@ -483,9 +483,9 @@
   .vps-prices-panel { float: left; width: 100%;  }
   .vps-prices-container #vps-slider { background: #bbbbbb; border-radius: 0; float: left; height:6px; margin: 0 0 15px; width: 100%;  padding:0; box-shadow: 0 13px 16px rgba(0,0,0,0.16), 0 13px 16px rgba(0,0,0,0.23); cursor:pointer;}
 
-  .vps-prices-container #sliderlines { background: url(images/lines1.png) center top; display: table; height: 10px; margin: 0 auto; width: 100%; opacity:.2; }
+  .vps-prices-container #sliderlines { background: url(../images/lines1.png) center top; display: table; height: 10px; margin: 0 auto; width: 100%; opacity:.2; }
   .vps-prices-container #vps-slider .ui-slider-range { background: #FF4081; border-radius: 0; }
-  .vps-prices-container #vps-slider .ui-slider-handle { background: url(images/slider_range.png) no-repeat left top; border: 0; border-radius: 0; height: 25px; margin-left: -15px; margin-top:-6px; outline: none; width: 25px; }
+  .vps-prices-container #vps-slider .ui-slider-handle { background: url(../images/slider_range.png) no-repeat left top; border: 0; border-radius: 0; height: 25px; margin-left: -15px; margin-top:-6px; outline: none; width: 25px; }
 
   #vps_name_option h3 span {font-size:20px; display:table; border-bottom:0; padding:11px 29px; margin:0 auto; margin-top:0; margin-bottom:-30px; letter-spacing:.04em; color:#fff; background:#FF4081; font-weight:300; position: relative; box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);}
   #vps_name_option h3 span:after {  top: 100%;  left: 50%;  border: solid transparent;  content: " ";  height: 0;  width: 0;  position: absolute;  pointer-events: none;  border-color: rgba(255, 64, 129, 0);  border-top-color: #FF4081;  border-width: 10px;  margin-left: -10px;}
@@ -548,7 +548,7 @@
   .vps-accordion .panel-body p {text-align: left; font-size:16px; padding:0; margin:0;}
 
   /* Responsive Table - VPS */
-  .vps-table {background: url(images/vps-table-bg.png) no-repeat; background-size:cover; padding:70px 0; z-index:0; position: relative;}
+  .vps-table {background: url(../images/vps-table-bg.png) no-repeat; background-size:cover; padding:70px 0; z-index:0; position: relative;}
   .vps-products-table { min-width:100%; border:0; font-family: 'Roboto', Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif!important;margin-bottom:45px; }
   .vps-products-table thead {border:0;background:transparent;}
   .vps-products-table thead th {background:#FF4081; color:#fff!important; font-weight:900;  font-size:18px!important; border:0!important; font-family: 'Roboto', Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif!important;  text-shadow: none; padding-top:10px!important; padding-bottom:10px!important; text-align: center;}
@@ -569,7 +569,7 @@
  /* ========================
   6 = Dedicated Servers
   ======================== */
-  #subheader.dedicated-servers {background:url(images/deticated-servers-bg.png); padding:100px 25px;}
+  #subheader.dedicated-servers {background:url(../images/deticated-servers-bg.png); padding:100px 25px;}
   #subheader.dedicated-servers h1 {color:#424242; text-shadow:none; }
   #subheader.dedicated-servers h2 {color:#424242;}
 
@@ -632,7 +632,7 @@
   .domaintlds h3 strong {color:#ff4081; }
   .domaintlds h3 span {display:block; color:#ff4081; padding-top:10px;}
 
-  .domain-prices {padding:67px 0; overflow:hidden; background: url(images/affiliates_steps.jpg);}
+  .domain-prices {padding:67px 0; overflow:hidden; background: url(../images/affiliates_steps.jpg);}
   #tld-table {min-width:100%; font-family: 'Roboto', Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif; background: #fff; box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12); border: 0; font-size: 16px; position: relative;  white-space: nowrap; }
   #tld-table thead {border:0!important; }
   #tld-table thead th {background:#FF4081; color:#fff!important; font-weight:900;  font-size:14px; position:relative; -webkit-box-shadow: -1px 0px 0px 0px rgba(255,255,255,.3);-moz-box-shadow: -1px 0px 0px 0px rgba(255,255,255,.3);box-shadow: -1px 0px 0px 0px rgba(255,255,255,.3); text-align:center; text-shadow: none; font-family: 'Roboto', Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;}
@@ -656,7 +656,7 @@
   8 = About Us
   ======================== */
 
-  #subheader.about {background: url(images/about_bg.jpg) center center no-repeat; padding:100px 25px;}
+  #subheader.about {background: url(../images/about_bg.jpg) center center no-repeat; padding:100px 25px;}
   #subheader.about:after { background: rgba(34,43,50,.9); bottom: 0px; content: ""; left: 0; position: absolute; right: 0; top: 0; z-index: 1; }
 
   /* Description */
@@ -729,7 +729,7 @@
 
 
   /* Support Nethods */
-  .other-support-methods {padding:67px 0; background:url(images/other-support-bg.png); overflow:hidden;}
+  .other-support-methods {padding:67px 0; background:url(../images/other-support-bg.png); overflow:hidden;}
   .other-support-methods h3 {color:#fff; letter-spacing: -.05em; margin:0 0 20px; padding: 0; font-size:29px;}
   .other-support-methods p {color:#fff; margin:0; font-size:16px;}
   .support-method {padding-left:80px; margin-bottom:50px;}
@@ -751,7 +751,7 @@
 
   /* Description */
 
-  .datacenter-descr {padding:55px 0;  overflow:hidden; background: #fff url(images/dc_bg.jpg) center center no-repeat; background-size:cover; text-align:center; min-height:680px;}
+  .datacenter-descr {padding:55px 0;  overflow:hidden; background: #fff url(../images/dc_bg.jpg) center center no-repeat; background-size:cover; text-align:center; min-height:680px;}
   .datacenter-descr h3 {color:#424242; margin-bottom:0; padding: 0; font-size:29px; letter-spacing: -0.05em;text-align:center;}
   .datacenter-descr p {font-size:17px;  text-align:center;}
 
@@ -768,7 +768,7 @@
 
   /* Map */
 
-  .map_wrapper {padding:55px 0; background:url(images/other-support-bg.png);  }
+  .map_wrapper {padding:55px 0; background:url(../images/other-support-bg.png);  }
 
   .datacenter-photos {padding:55px 0 75px;  overflow:hidden; background:#eee;}
   .datacenter-photos h3 {color:#424242; margin-bottom:0; padding: 0; font-size:29px; letter-spacing: -0.05em;text-align:center;}
@@ -780,7 +780,6 @@
   11 = Affiliates
   ======================== */
 
-  #subheader.affiliates {background: url(images/affiliates_bg.jpg) center center no-repeat; }
   #subheader.affiliates:after { background: rgba(34,43,50,.9); bottom: 0px; content: ""; left: 0; position: absolute; right: 0; top: 0; z-index: 1; }
   #subheader.affiliates .mtr-btn {margin-top:35px;}
 
@@ -796,7 +795,7 @@
   .whiteframe {padding:15px; background:#fff; border: 1px solid #ccc; border-radius:5px; box-shadow:inset 0 -4px 0 0 #f6f6f6, inset 0 -5px 0 0 #ddd, inset 0 -10px 0 0 #f6f6f6, inset 0 -11px 0 0 #ddd,0 2px 8px -2px rgba(0, 0, 0, 0.1);}
 
   /* Counters */
-  .affiliates-counts {background:url(images/affiliates_steps.jpg) center center no-repeat; padding:80px 0;  overflow:hidden; text-align:center;}
+  .affiliates-counts {background:url(../images/affiliates_steps.jpg) center center no-repeat; padding:80px 0;  overflow:hidden; text-align:center;}
   .affiliates-counts .odometer {color:#fff; font-size:50px; font-weight:900; font-family: 'Roboto', Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;}
   .affiliates-counts #odometer1.odometer:after {content: "$";  font-size:30px; margin:4px 0 0 4px; font-weight:100;}
   .affiliates-counts #odometer3.odometer:after {content: "%";  font-size:30px; margin:4px 0 0 4px; font-weight:100;}
@@ -865,7 +864,7 @@
 
    /* Author box */
    .author-wrap {position: relative;  overflow:hidden; padding:0; background: #fff; border-radius: 0; margin-bottom:35px; box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);}
-   .author-gravatar {margin: 0;line-height: 1; background: url(images/s8.png) repeat; min-height:150px; position:relative;}
+   .author-gravatar {margin: 0;line-height: 1; background: url(../images/s8.png) repeat; min-height:150px; position:relative;}
    .author-gravatar img {width:96px; -webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%; left: 50%; top:50%; position: absolute; text-align: center; z-index: 2; transform: translate(-50%, -50%);  -webkit-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);}
    .author-info {padding:30px 20px;}
    .author-title {color: #424242;display: block;line-height: 1.5;margin: 0; padding: 0 0 10px;}
@@ -910,7 +909,7 @@
 /* ==============================
    13 = Contact
    ============================== */
-   #subheader.contact {background: url(images/contact_bg.png) center bottom no-repeat; padding:100px 25px;}
+   #subheader.contact {background: url(../images/contact_bg.png) center bottom no-repeat; padding:100px 25px;}
    #map_wrapper { height: 450px;}
    #map_canvas {width: 100%; height: 100%;}
    #map_canvas img {max-width: none;}
@@ -1134,7 +1133,7 @@
     ul.topright {float:none;}
     ul.topright li { margin-right:17px;}
     .logo img {text-align:center; display:table; margin:0 auto; max-width:60%; padding-bottom:15px;}
-    #mainimage { height:auto;  position: relative;    overflow: hidden; background: #282f39 url(images/pricingbox-bg-dark.jpg) fixed bottom center;}
+    #mainimage { height:auto;  position: relative;    overflow: hidden; background: #282f39 url(../images/pricingbox-bg-dark.jpg) fixed bottom center;}
     #mainimage h1 { font-size:2em;}
     #home-intro .home-intro-container  { display:none; }
     .pricingbox.headerimg { position:relative; }
