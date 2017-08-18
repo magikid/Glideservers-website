@@ -1,3 +1,4 @@
+/* http://i.imgur.com/qTYDN81.png */
 <div class="alert alert-danger">
     <strong><i class="fa fa-gavel"></i> {$LANG.bannedyourip} {$ip} {$LANG.bannedhasbeenbanned}</strong>
     <ul>
