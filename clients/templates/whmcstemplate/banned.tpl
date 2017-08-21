@@ -5,4 +5,4 @@
         <li>{$LANG.bannedbanexpires}: {$expires}</li>
     </ul>
 </div>
-<p> If you believe this to be a mistake, please contact us on twitter <a href="https://twitter.com/GlideServers">@GlideServers</a>
+<h3> <strong>If you believe this to be a mistake, please contact us on twitter <a href="https://twitter.com/GlideServers">@GlideServers</a></strong></h3>
