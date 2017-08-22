@@ -1,3 +1,4 @@
 # robots.txt for https://www.glideservers.com/  9/8/17
 User-agent: *
 Disallow: /clients/ # Stop aimless searching of dynamic pages
+# Apart from that, we don't care what you search for :P
