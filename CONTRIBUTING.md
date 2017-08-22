@@ -2,7 +2,7 @@
 
 We'd love to hear what problem you have:
 
-Please [search for your issue before filing it: many bugs and improvements have already been reported](https://github.com/search?l=&q=repo%3Aopenstreetmap%2FiD&type=Issues)
+Please [search for your issue before filing it: many bugs and improvements have already been reported](https://github.com/search?l=&q=repo%3Aglideservers%2FGlideservers-website&type=Issues)
 
 
 When in doubt, be over-descriptive of the bug and how you discovered it.
