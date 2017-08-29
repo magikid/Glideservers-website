@@ -78,56 +78,32 @@
 </div>
 <!-- END OF HEADER -->
 <!-- SUBHEADER -->
-<div id="subheader" class="datacenter">
-  <div class="subheader-text">
-    <h1>Maintenance Mode Active</h1>
-    <h2>Time remaining : Unknown</h2>
-    <a href="http://blog.glideservers.com/" class="btn btn-success btn-md">More Info</a>
-    <a href="https://www.glideservers.com/clients/" class="btn btn-danger btn-md">Try Again</a>
-  </div>
+<!-- MAN MAIN -->
+<div w3-include-html="includes/man_main.html">
+    <div id="subheader" class="datacenter">
+      <div class="subheader-text">
+        <h1>Maintenance Mode Active</h1>
+        <h2>Time remaining : Unknown</h2>
+        <a href="http://blog.glideservers.com/" class="btn btn-success btn-md">More Info</a>
+        <a href="https://www.glideservers.com/clients/" class="btn btn-danger btn-md">Try Again</a>
+      </div>
+    </div>
+    <!-- END OF SUBHEADER -->
+    <div class="row">
+      <div class="col-sm-8">
+        <h3>What is Maintenance Mode?</h3>
+        <p>When this mode is active, it means that we are improving the quality of our services in one way or another.
+        <p>Furthermore, all services should stay online and active, you just wont be able to access our client area temporarily. (If you have a VPS service with us, you can still access it through the separate control panel)
+        <p>Above, under the page title, there should be an estimated time of when the client area should be back online, please press the "Try Again" button for updates on this page, it will redirect you to the client area if maintenance mode is disabled.</p>
+      </div>
+    </div>
 </div>
-<!-- END OF SUBHEADER -->
-      <div class="row">
-        <div class="col-sm-8">
-          <h3>What is Maintenance Mode?</h3>
-          <p>When this mode is active, it means that we are improving the quality of our services in one way or another.
-          <p>Furthermore, all services should stay online and active, you just wont be able to access our client area temporarily. (If you have a VPS service with us, you can still access it through the separate control panel)
-          <p>Above, under the page title, there should be an estimated time of when the client area should be back online, please press the "Try Again" button for updates on this page, it will redirect you to the client area if maintenance mode is disabled.</p>
-        </div>
-     </div>
+<!-- END OF MAN MAIN -->
 <!-- FOOTER -->
-<div class="footer">
-  <div class="row">
-   <div class="col-sm-3">
-    <h4>VPS Hosting</h4>
-    <ul>
-      <li><a href="ssd-vps" title="">SSD VPS</a></li>
-      <li><a href="vps" title="">HDD VPS</a></li>
-    </ul>
-  </div>
-  <div class="col-sm-3">
-    <h4>Support</h4>
-    <ul>
-      <li><a href="https://www.glideservers.com/clients/submitticket.php" title="">Support Tickets</a></li>
-      <li><a href="https://www.glideservers.com/clients/knowledgebase.php?action=displayarticle&id=9" title="">Acceptable Usage Policy</a></li>
-      <li><a href="https://www.glideservers.com/clients/knowledgebase.php?action=displayarticle&id=10" title="">Terms & Conditions</a></li>
-    </ul>
-  </div>
-</div>
-</div>
+<div w3-include-html="includes/footer.html" class="footer"></div>
 <!-- END FOOTER -->
 <!-- SOCIAL & COPYRIGHT -->
-<div class="social">
-  <div class="row">
-    <div class="col-sm-12">
-     <ul class="social-links">
-      <li><a href="https://www.facebook.com/glideservers" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-      <li><a href="https://twitter.com/GlideServers" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-    </ul>
-    <p class="text-center">Copyright© GlideServers 2017. All rights reserved.</p>
-  </div>
-</div>
-</div>
+<div w3-include-html="includes/social.html" class="social"></div>
 <!-- END OF SOCIAL & COPYRIGHT -->
 <script>
 w3.includeHTML();
