@@ -1,0 +1,20 @@
+/* TEAM */
+
+CMO: Owen
+Site: http://owensimons.co.uk/
+Github: @WiseDawg72     
+Location: Middleton, England
+
+CTO: James
+Site: https://jameskingdom.carrd.co/
+Github: @JamesKingdom
+Location: Felpham, England
+							
+/* THANKS */							
+Tim
+Sam
+Bryan
+
+/* SITE */
+Standards : none :(
+Software: Notepad++, git
