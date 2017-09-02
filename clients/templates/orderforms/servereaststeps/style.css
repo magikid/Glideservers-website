@@ -1,0 +1,46 @@
+.step {background:#F0F1F5; padding:10px; text-align: center; border-radius:5px; margin-bottom:2px;}
+.step a {color:#6E6E6E;}
+.step.active {background:#DE6262; color:#fff;}
+.step.active a {color:#fff;}
+h5.text-center {margin-top:15px;}
+
+select.choosecat { font-size:16px; padding: 6px; border: 0;    -webkit-font-smoothing: antialiased;    -moz-osx-font-smoothing: grayscale;  background:#fff;  border-radius: 5px;border:1px solid #e0e1e3;}
+input.choosecat { font-size:16px; padding: 9px; border: 0;    -webkit-font-smoothing: antialiased;    -moz-osx-font-smoothing: grayscale;  background:#fff;  border-radius: 5px;border:1px solid #e0e1e3;}
+
+.orderbox {background:#F0F1F5; padding:15px; margin-bottom:10px;}
+label.hascheckbox checkbox {margin-right:8px;}
+
+#domaincontactfields {display: none}
+#viewcart-table {min-width:100%; border:1px solid #DFE0E5; font-family: 'hind', sans-serif; background: #EDEEF2; margin-bottom:25px;}
+#viewcart-table thead th {background:#6E6E6E; color:#fff!important; font-weight:700;  font-size:15px; position:relative;  -webkit-box-shadow: -1px 0px 0px 0px rgba(0, 0, 0, .1);-moz-box-shadow:    -1px 0px 0px 0px rgba(0, 0, 0,.1);box-shadow:         -1px 0px 0px 0px rgba(0, 0, 0, .1); text-align: left;}
+#viewcart-table thead th a {color:#fff!important; }
+#viewcart-table thead th a:hover {color:#ccc!important; }
+#viewcart-table th {font-weight: normal;    -webkit-font-smoothing: antialiased;   padding:16px 12px; color: #6E6E6E;   font-size: 15px; background: #FFFFFF; }
+#viewcart-table td {color: #6E6E6E;    padding:10px 12px; font-size: 15px; border-bottom:1px solid #DFE0E5; text-align: left;}
+#viewcart-table td.alignright {text-align:right;}
+#viewcart-table tr.even, #viewcart-table tr.odd, #viewcart-table tr.alt, #viewcart-table tr:nth-of-type(even), #viewcart-table tr:nth-of-type(odd) {  background: #EDEEF2!important; }
+
+#viewcart-table td.halftable {width:50%;}
+#viewcart-table td.halftable table, #viewcart-table td.halftable table tr {width:100%;}
+#viewcart-table td.halftable table tr td {width:50%; text-align: left;}
+
+#viewcart-table input[type="text"], #viewcart-table input[type="password"], #viewcart-table input[type="date"], #viewcart-table input[type="datetime"], #viewcart-table input[type="email"], #viewcart-table input[type="number"], #viewcart-table input[type="search"], #viewcart-table input[type="tel"], #viewcart-table input[type="time"], #viewcart-table input[type="url"] { font-size: 15px; height: 38px; padding: 5px 10px; width: 100%; border-radius:4px; box-shadow:none; border:1px solid #ccc;}
+#viewcart-table textarea { font-size: 15px;padding: 5px 10px; width: 100%; border-radius:4px; box-shadow:none; border:1px solid #ccc;}
+#viewcart-table select { font-size: 15px; height: 38px; padding: 5px 10px; width: 100%; border-radius:4px; box-shadow:none; border:1px solid #ccc;}
+
+p.pass-stength-cart {text-align:center;}
+p.pass-stength-cart table tr td {display: table-cell!important;}
+#pwstrength {display:none;}
+
+#masspay-table input[type="text"] {display:block; margin-bottom:2px;}
+#masspay-table input[type="text"], #masspay-table input[type="password"], #masspay-table input[type="date"], #masspay-table input[type="datetime"], #masspay-table input[type="email"], #masspay-table input[type="number"], #masspay-table input[type="search"], #masspay-table input[type="tel"], #masspay-table input[type="time"], #masspay-table input[type="url"] { font-size: 15px; height: 38px; padding: 5px 10px; width: 100%; border-radius:4px; box-shadow:none; border:1px solid #ccc;}
+#masspay-table textarea { font-size: 15px;padding: 5px 10px; width: 100%; border-radius:4px; box-shadow:none; border:1px solid #ccc;}
+#masspay-table select { font-size: 15px; height: 38px; padding: 5px 10px; width: 100%; border-radius:4px; box-shadow:none; border:1px solid #ccc;}
+
+
+@media only screen and (max-width: 767px) {
+select.choosecat {margin-top:20px; margin-bottom:3px; font-size:12px; padding: 3px;}
+#viewcart-table td.halftable {width:100%;}
+#viewcart-table td.halftable table tr td {width:100%;}
+#viewcart-table td {border-bottom:0;}
+}
