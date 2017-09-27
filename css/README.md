@@ -1,2 +1,0 @@
-# CSS
-CSS directory
