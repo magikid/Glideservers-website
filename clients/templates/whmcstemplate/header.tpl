@@ -124,7 +124,7 @@
 
 <!--  NAVIGATION MENU AREA -->
 <script src="https://www.w3schools.com/lib/w3.js"></script>
-<div w3-include-html="includes/navheader.html" class="header"></div>
+<div w3-include-html="https://www.glideservers.com/includes/navheader.html" class="header"></div>
 <script>
     w3.includeHTML();
 </script>
