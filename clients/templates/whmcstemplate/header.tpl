@@ -122,33 +122,12 @@
             </div>
             <div class="col-sm-9">
 
-              <!--  NAVIGATION MENU AREA -->
-     <nav id="desktop-menu">
-      <ul class="sf-menu" id="navigation">
-        <li><a href="https://www.glideservers.com">Home</a>
-        </li>
-        <li><a href="">Hosting</a>
-          <ul>
-			<li><a href="https://www.glideservers.com/ssd-vps">NEW! SSD VPS</a>
-            </li>
-			<li><a href="https://www.glideservers.com/vps">HDD VPS</a>
-			</li>
-          </ul>
-        </li>
-        <li><a href="">More</a>
-          <ul>
-            <li><a href="https://www.glideservers.com/about">About</a>
-            </li>
-            <li><a href="https://www.glideservers.com/clients/knowledgebase.php">FAQ</a>
-            </li>
-            
-          </ul>
-        
-        </li>
-        <li><a href="https://www.glideservers.com/clients/submitticket.php">Support</a></li>
-      </ul>
-    </nav>
-
+<!--  NAVIGATION MENU AREA -->
+<script src="https://www.w3schools.com/lib/w3.js"></script>
+<div w3-include-html="https://www.glideservers.com/includes/navheader.html" class="header"></div>
+<script>
+    w3.includeHTML();
+</script>
 <!--  END OF NAVIGATION MENU AREA -->
 
             </div>
