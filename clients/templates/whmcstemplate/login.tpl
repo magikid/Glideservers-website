@@ -28,7 +28,6 @@
         </div>
         <p>
         <div align="center">
-            <p>Don't have an account?
             <a href="register.php" class="btn btn-danger">Register Now</a></p>
         </div>
     </form>
