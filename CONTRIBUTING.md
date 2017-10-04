@@ -17,10 +17,9 @@ To request a feature:
 
 Red labels are for **bugs**. These are things that we want fixed.
 
-* <sub>[![bug][bug]][bug_link]
-</sub>
+* <sub>[![bug][bug]][bug_link]</sub>
 
-[bug]: http://labl.es/svg?text=bug&bgcolor=d93f0b
+[bug]: http://labl.es/svg?text=bug&bgcolor=ee0701
 
 [bug_link]: https://github.com/GlideServers/Glideservers-website/labels/bug
 
@@ -41,6 +40,14 @@ documentation, repository gardening, and other stuff that makes developers happy
 [chore]: http://labl.es/svg?text=enhancement&bgcolor=fef2c0
 
 [chore_link]: https://github.com/GlideServers/Glideservers-website/labels/chore
+
+Dark blue labels are for **core issues**. These are things that directly affect the code.
+
+* <sub>[![core][core]][core_link]</sub>
+
+[core]: http://labl.es/svg?text=bug&bgcolor=0052cc
+
+[core_link]: https://github.com/GlideServers/Glideservers-website/labels/core
 
 Light blue labels are for **features**. These are things that make the website better.
 
@@ -71,11 +78,15 @@ Special:
 
 * <sub>[![bluesky][bluesky]][bluesky_link]</sub> -
 Bluesky issues are extra challenging. They might require weeks of development or not even be possible.
+* <sub>[![hacktoberfest][hacktoberfest]][hacktoberfest_link]</sub> -
+Hacktoberfest.  Used for [hacktoberfest](https://hacktoberfest.digitalocean.com/)
 * <sub>[![wip][wip]][wip_link]</sub> -
 Work in Progress.  Don't start work on these, somebody else already did!
 
-[bluesky]: http://labl.es/svg?text=bluesky&bgcolor=1d76db
+[bluesky]: http://labl.es/svg?text=bluesky&bgcolor=1e96db
+[hacktoberfest]: http://labl.es/svg?text=Hacktoberfest&bgcolor=ffa500
 [wip]: http://labl.es/svg?text=wip&bgcolor=fbca04
 
 [bluesky_link]: https://github.com/GlideServers/Glideservers-website/labels/bluesky
+[hacktoberfest_link]: https://github.com/GlideServers/Glideservers-website/labels/hacktoberfest
 [wip_link]: https://github.com/GlideServers/Glideservers-website/labels/wip
