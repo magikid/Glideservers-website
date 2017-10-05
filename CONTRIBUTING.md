@@ -37,7 +37,7 @@ documentation, repository gardening, and other stuff that makes developers happy
 
 * <sub>[![chore][chore]][chore_link]
 
-[chore]: http://labl.es/svg?text=enhancement&bgcolor=fef2c0
+[chore]: http://labl.es/svg?text=chore&bgcolor=fef2c0
 
 [chore_link]: https://github.com/GlideServers/Glideservers-website/labels/chore
 
@@ -49,7 +49,7 @@ Dark blue labels are for **core issues**. These are things that directly affect 
 
 [core_link]: https://github.com/GlideServers/Glideservers-website/labels/core
 
-Light blue labels are for **features**. These are things that make the website better.
+Light blue labels are for **enhancements**. These are things that make the website better.
 
 * <sub>[![enhancement][enhancement]][enhancement_link]</sub>
 
