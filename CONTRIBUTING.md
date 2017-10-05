@@ -45,7 +45,7 @@ Dark blue labels are for **core issues**. These are things that directly affect 
 
 * <sub>[![core][core]][core_link]</sub>
 
-[core]: http://labl.es/svg?text=bug&bgcolor=0052cc
+[core]: http://labl.es/svg?text=core&bgcolor=0052cc
 
 [core_link]: https://github.com/GlideServers/Glideservers-website/labels/core
 
@@ -53,7 +53,7 @@ Light blue labels are for **enhancements**. These are things that make the websi
 
 * <sub>[![enhancement][enhancement]][enhancement_link]</sub>
 
-[enhancement]: http://labl.es/svg?text=core&bgcolor=006b75
+[enhancement]: http://labl.es/svg?text=enhancement&bgcolor=006b75
 
 [enhancement_link]: https://github.com/GlideServers/Glideservers-website/labels/enhancement
 
