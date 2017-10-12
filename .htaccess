@@ -1,5 +1,5 @@
 # Set indexes
-DirectoryIndex index.html index.php README.md
+DirectoryIndex index.html index.php
 # Set error pages
 ErrorDocument 403 /403.html
 ErrorDocument 404 /404.html
