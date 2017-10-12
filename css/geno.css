@@ -19,10 +19,5 @@
  * © 2016 MyFonts Inc
 */
 
-
-/* @import must be at top of file, otherwise CSS will not work */
-@import url("https://hello.myfonts.net/count/322115");
-
-  
 @font-face {font-family: 'Genos-Italic';src: url('../fonts/322115_0_0.eot');src: url('../fonts/322115_0_0.eot?#iefix') format('embedded-opentype'),url('../fonts/322115_0_0.woff2') format('woff2'),url('../fonts/322115_0_0.woff') format('woff'),url('../fonts/322115_0_0.ttf') format('truetype');}
  
