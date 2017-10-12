@@ -192,7 +192,7 @@
   /* Header Slider ---------------------- */
   #mainslider { position: relative;    overflow: hidden;}
   .flex-caption {left: 50%; top:50%; position: absolute; text-align: center; z-index: 2; transform: translate(-50%, -50%);  -webkit-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%);}
-  .flex-caption h2 {font-family: 'Roboto', Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif; text-align:center; color: #E1E3E4; font-size: 2.5em; text-shadow: -1px 1px 0 #2d2d2f; font-weight:100; }
+  .flex-caption h2 {font-family: 'Roboto', Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif; text-align:center; color: #E1E3E4; font-size: 45px; text-shadow: -1px 1px 0 #2d2d2f; font-weight:100; }
   .flex-caption h2 span {padding: 20px 0;color:#fff;}
   .flex-caption h4 {font-family: 'Roboto', Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;text-align:center; color: #fff; font-size: 1.5em; font-weight: 300; margin-top: 55px; text-shadow: -1px 1px 0 #2d2d2f;}
   .flex-caption .mtr-btn {margin-top:75px; margin-bottom:25px; font-size: 15px;}
