@@ -192,7 +192,7 @@
   /* Header Slider ---------------------- */
   #mainslider { position: relative;    overflow: hidden;}
   .flex-caption {left: 50%; top:50%; position: absolute; text-align: center; z-index: 2; transform: translate(-50%, -50%);  -webkit-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%);}
-  .flex-caption h2 {font-family: 'Roboto', Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif; text-align:center; color: #E1E3E4; font-size: 2.5em; text-shadow: -1px 1px 0 #2d2d2f; font-weight:100; }
+  .flex-caption h2 {font-family: 'Roboto', Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif; text-align:center; color: #E1E3E4; font-size: 45px; text-shadow: -1px 1px 0 #2d2d2f; font-weight:100; }
   .flex-caption h2 span {padding: 20px 0;color:#fff;}
   .flex-caption h4 {font-family: 'Roboto', Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;text-align:center; color: #fff; font-size: 1.5em; font-weight: 300; margin-top: 55px; text-shadow: -1px 1px 0 #2d2d2f;}
   .flex-caption .mtr-btn {margin-top:75px; margin-bottom:25px; font-size: 15px;}
@@ -457,7 +457,7 @@
   /* Order Slider - VPS Page */
   .pricingbox.vps {padding-bottom:0;}
   .pricingbox.vps-comparison {padding:55px 0 90px; background: url(../images/popular_plans_bg.jpg); background-size:cover;}
-  .pricingbox.vps h1 {font-size:29px; display:table; border-bottom:0; padding:0 15px; margin:0 auto;color:#fff; font-weight:700; margin-bottom:0;}
+  .pricingbox.vps h1 {font-size:29px; display:table; border-bottom:0; padding:0 15px; margin:0 auto;color:#fff; font-weight:300; margin-bottom:0;}
   .pricingbox.vps .centralized {   position: relative;   top: 0;   opacity: 1;   float: left;   padding:15px 0 0;   width: 100%;   border-radius: 0;   transform: scale(1);   -webkit-transform: scale(1);   -ms-transform: scale(1);   z-index: 5; text-align:center; box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12); background: #ff4081; margin-top:30px;}
   .pricingbox.vps .centralized:before {   content: "";   width: 100%;   height: 30px;   border-radius: 0;   position: absolute;   top: -10px;   left: 0;   transform: scale(.95);   -webkit-transform: scale(.95);   -ms-transform: scale(.95);   z-index: -1; background: rgba(255,64,129,.5);}
   .pricingbox.vps .centralized span.how_much {background:rgba(0,0,0,.17); width:100%; display: block; padding:15px; position:relative; font-weight:100; font-size:22px;}
@@ -498,7 +498,7 @@
   .vps-features-tabs {padding:55px 0 80px; background:#E9E9E9; overflow:hidden;}
   .vps-features-tabs h2 {font-size:29px; text-align:center; padding:0; margin-bottom:35px; letter-spacing: -0.05em; }
   .vps-features-tabs .tab-content {padding:50px 75px; float:right; width:85%; background:#fff; -webkit-border-radius: 6px;-webkit-border-top-left-radius: 0;-moz-border-radius: 6px;-moz-border-radius-topleft: 0;border-radius: 6px;border-top-left-radius: 0;}
-  .vps-features-tabs .tab-content h4 {font-weight:700; font-size:24px; color:#FF4081; display: block; margin:0 0 20px; letter-spacing: -0.05em;}
+  .vps-features-tabs .tab-content h4 {font-weight:300; font-size:24px; color:#FF4081; display: block; margin:0 0 20px; letter-spacing: -0.05em;}
   .vps-features-tabs .tab-content hr.small {margin:21px 0; border-color:#d8d6d6;}
   .vps-features-tabs .tab-content p.subtitle {font-size:19px; font-weight:400;}
   .vps-features-tabs .tab-content p {font-size:17px;}
