@@ -660,7 +660,7 @@
   #subheader.about:after { background: rgba(34,43,50,.9); bottom: 0px; content: ""; left: 0; position: absolute; right: 0; top: 0; z-index: 1; }
 
   /* Description */
-  .about-descr {padding:55px 0 67px;  overflow:hidden;}
+  .about-descr {padding:55px 0 67px;  margin-right:70px;  margin-left:70px;  overflow:hidden; }
   .about-descr h3 {color:#424242; letter-spacing: -.05em; margin-bottom:0; padding: 0; text-align:center; font-size:29px;}
   .about-descr p {font-size:17px;}
   .about-descr p.topspacing {padding-top:50px;}
