@@ -490,7 +490,7 @@
   #vps_name_option h3 span {font-size:20px; display:table; border-bottom:0; padding:11px 29px; margin:0 auto; margin-top:0; margin-bottom:-30px; letter-spacing:.04em; color:#fff; background:#FF4081; font-weight:300; position: relative; box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);}
   #vps_name_option h3 span:after {  top: 100%;  left: 50%;  border: solid transparent;  content: " ";  height: 0;  width: 0;  position: absolute;  pointer-events: none;  border-color: rgba(255, 64, 129, 0);  border-top-color: #FF4081;  border-width: 10px;  margin-left: -10px;}
   .total_amount h3 {text-align: center;  margin-top:40px; }
-  .total_amount h3 span {font-size:45px; color:#fff; font-weight:400; letter-spacing: -0.09em; }
+  .total_amount h3 span {font-size:45px; color:#fff; font-weight:400; }
   .total_amount h3 span#period {font-size:22px; }
   /* End Order Slider - VPS Page */
 
