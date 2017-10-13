@@ -1,5 +1,6 @@
 # Set indexes
 DirectoryIndex index.html index.php
+
 # Set error pages
 ErrorDocument 403 /403.html
 ErrorDocument 404 /404.html
@@ -10,3 +11,9 @@ Options -Indexes
 # Fix libwww-perl vulnerability
 RewriteCond %{HTTP_USER_AGENT} libwww-perl.* 
 RewriteRule .* ? [F,L]
+
+# Redirect https://glideservers.com to https://www.glideservers.com
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^[^.]+\.[^.]+$
+RewriteCond %{HTTPS}s ^on(s)|
+RewriteRule ^ http%1://www.%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
