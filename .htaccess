@@ -14,5 +14,6 @@ RewriteRule .* ? [F,L]
 
 # Redirect https://glideservers.com to https://www.glideservers.com
 RewriteEngine On
-RewriteCond %{HTTP_HOST} ^glideservers.com$ [NC]
-RewriteRule (.*) https://www.glideservers.com/$1 [R=301,L]
+RewriteCond %{HTTP_HOST} ^[^.]+\.[^.]+$
+RewriteCond %{HTTPS}s ^on(s)|
+RewriteRule ^ http%1://www.%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
